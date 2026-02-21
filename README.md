@@ -33,11 +33,6 @@ npm run dev
 
 *Coming soon...*
 
-## 🛠 Tech Stack
-
-- React + TypeScript
-- Tailwind CSS
-- [Add your backend/database]
 
 ## 📄 License
 
@@ -64,4 +59,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 2. "今天喝哪支？"
 3. "我的咖啡花了多少钱？"
 
-Built with ❤️ and [Cursor](https://cursor.sh)
+Built with ❤️ and [Cursor]
