@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* Indigo / Slate 配色（非咖啡色系） */
+:root {
+  --color-primary: #4f46e5;   /* Indigo-600 */
+  --color-bg: #f8fafc;        /* Slate-50 */
+  --color-resting: #94a3b8;   /* Slate-400 */
+  --color-ready: #4f46e5;     /* Indigo-600 */
+  --color-drinking: #059669;  /* Emerald-600 */
+  --color-warning: #f97316;   /* Orange-500 待拼配 */
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: #0f172a;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+input[type="range"] {
+  accent-color: var(--color-primary);
+}
+
+/* Hide horizontal scrollbar for chip filters */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
